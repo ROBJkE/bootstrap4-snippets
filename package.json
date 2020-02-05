@@ -1,0 +1,29 @@
+{
+	"name": "bootstrap4-snippets",
+	"displayName": "Bootstrap 4 Snippets",
+	"description": "Snippets for Bootstrap v4",
+	"version": "0.0.1",
+	"publisher": "robjke",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "css",
+				"path": "./snippets/css-classes.json"
+			},
+			{
+				"language": "scss",
+				"path": "./snippets/css-classes.json"
+			},
+			{
+				"language": "less",
+				"path": "./snippets/css-classes.json"
+			},
+		]
+	}
+}

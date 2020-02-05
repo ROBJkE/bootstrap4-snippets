@@ -1,0 +1,9 @@
+{
+	"display: flex;": {
+		"prefix": ".d-flex",
+		"body": [
+			".d-flex"
+		],
+		"description": ".d-flex"
+	}
+}
