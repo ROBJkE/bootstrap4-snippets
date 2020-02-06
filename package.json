@@ -7,17 +7,21 @@
 	"engines": {
 		"vscode": "^1.28.0"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ROBJkE/bootstrap4-snippets.git"
+	},
 	"categories": [
 		"Snippets"
 	],
 	"contributes": {
 		"snippets": [
 			{
-				"language": "css",
+				"language": "css,scss,less",
 				"path": "./snippets/css-classes.json"
 			},
 			{
-				"language": "scss",
+				"language": "css",
 				"path": "./snippets/css-classes.json"
 			},
 			{

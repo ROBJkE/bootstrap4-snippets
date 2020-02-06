@@ -1,9 +1,10 @@
 {
-	"display: flex;": {
+	// flex utilities
+	"Utility: Display Flex": {
 		"prefix": ".d-flex",
 		"body": [
 			".d-flex"
 		],
-		"description": ".d-flex"
+		"description": "display: flex;"
 	}
 }
