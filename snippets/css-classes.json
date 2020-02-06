@@ -12,5 +12,42 @@
 			".d-${1:breakpoint}-${2|flex,inline-flex,none,inline,inline-block,block,table,table-cell,table-row|}"
 		],
 		"description": ".d-{breakpoint}-{value}"
+	},
+	"Utility: Flex": {
+		"prefix": ".flex-value",
+		"body": [
+			".flex-${1|row,row-reverse,column,column-reverse,wrap,wrap-reverse,nowrap,fill|}"
+		],
+		"description": ".flex-{value}"
+	},"Utility: Flex (Breakpoint)": {
+		"prefix": ".flex-breakpoint-value",
+		"body": [
+			".flex-${1:breakpoint}-${2|row,row-reverse,column,column-reverse,wrap,wrap-reverse,nowrap,fill|}"
+		],
+		"description": ".flex-{breakpoint}-{value}"
+	},"Utility: Align Items": {
+		"prefix": ".align-items-value",
+		"body": [
+			".align-items-${1|start,end,center,baseline,stretch|}"
+		],
+		"description": ".align-items-{value}"
+	},"Utility: Align Items (Breakpoint)": {
+		"prefix": ".align-items-breakpoint-value",
+		"body": [
+			".align-items-${1:breakpoint}-${2|start,end,center,baseline,stretch|}"
+		],
+		"description": ".align-items-{breakpoint}-{value}"
+	},"Utility: Justify content": {
+		"prefix": ".justify-content-value",
+		"body": [
+			".justify-content-${1|start,end,center,between,around|}"
+		],
+		"description": ".justify-content-{value}"
+	},"Utility: Justify content (Breakpoint)": {
+		"prefix": ".justify-content-breakpoint-value",
+		"body": [
+			".justify-content-${1:breakpoint}-${2|start,end,center,between,around|}"
+		],
+		"description": ".justify-content-{breakpoint}-{value}"
 	}
 }
