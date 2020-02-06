@@ -17,7 +17,7 @@
 	"contributes": {
 		"snippets": [
 			{
-				"language": "css,scss,less",
+				"language": "scss",
 				"path": "./snippets/css-classes.json"
 			},
 			{
