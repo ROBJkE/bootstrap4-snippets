@@ -1,5 +1,4 @@
 {
-	// Display utilities
 	"Utility: Display": {
 		"prefix": ".d-value",
 		"body": [

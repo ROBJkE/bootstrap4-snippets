@@ -27,6 +27,10 @@
 			{
 				"language": "less",
 				"path": "./snippets/css-classes.json"
+			},
+			{
+				"language": "scss",
+				"path": "./snippets/scss-mixins.json"
 			}
 		]
 	}

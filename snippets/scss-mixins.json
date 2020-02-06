@@ -1,0 +1,11 @@
+{
+	"Responsive breakpoints": {
+		"prefix": "@media-breakpoint",
+		"body": [
+            "@include media-breakpoint-${1|up,down,only|}( ${2:breakpoint} ) {",
+            "\t${3:code}",
+            "}"
+		],
+		"description": "media-breakpoint-{value} ( {breakpoint} )"
+	}
+}
