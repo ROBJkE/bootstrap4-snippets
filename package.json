@@ -27,7 +27,7 @@
 			{
 				"language": "less",
 				"path": "./snippets/css-classes.json"
-			},
+			}
 		]
 	}
 }

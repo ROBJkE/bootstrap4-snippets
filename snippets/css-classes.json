@@ -1,10 +1,17 @@
 {
-	// flex utilities
-	"Utility: Display Flex": {
-		"prefix": ".d-flex",
+	// Display utilities
+	"Utility: Display": {
+		"prefix": ".d-value",
 		"body": [
-			".d-flex"
+			".d-${1|flex,inline-flex,none,inline,inline-block,block,table,table-cell,table-row|}"
 		],
-		"description": "display: flex;"
+		"description": ".d-{value}"
+	},
+	"Utility: Display (Breakpoint)": {
+		"prefix": ".d-breakpoint-value",
+		"body": [
+			".d-${1:breakpoint}-${2|flex,inline-flex,none,inline,inline-block,block,table,table-cell,table-row|}"
+		],
+		"description": ".d-{breakpoint}-{value}"
 	}
 }
